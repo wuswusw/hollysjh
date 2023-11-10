@@ -1,0 +1,404 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ----------- 리셋 코드 ----------- */
+header{
+    margin-top: 24px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-icon1{
+    display: flex;
+}
+
+#header-icon1 > h1{
+    width: 99px;
+    height: 76px;
+
+    background-image: url(https://www.hollys.co.kr/websrc/images/layout/gnb_smenu01.png);  
+}
+
+
+#header-icon1 > h2{
+    width: 69px;
+    height: 52px;
+
+    background-image: url(https://www.hollys.co.kr/websrc/images/layout/gnb_smenu04.gif); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#hollys-icon{
+    width: 66px;
+    height: 55px;
+
+    background-image: url(https://www.hollys.co.kr/websrc/images/layout/logo_210302.gif);
+}
+
+#header1 > ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(105, 105, 105);
+    
+    padding-bottom: 40px;
+}
+
+/* -----------카테고리---------*/
+
+
+#header2 > p:hover{
+    width: 150px;
+    height: 60px;
+    background-color: #b5121b;
+    color: #ffffff;
+}
+
+
+#header2{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 8px;
+}
+
+#header2 > p{
+    width: 150px;
+    height: 60px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    text-align: center;
+    line-height: 60px;
+}
+
+
+
+/*-----------배너-----------*/
+
+#benner {
+    width: 100%;
+    height: 480px;
+
+    background-image: url(https://admin.hollys.co.kr/upload/main/banner/mainBanner_202310310805151650.jpg);
+
+    border-top: 2px solid #b5121b;
+
+
+}
+
+/* ------------메인-------------*/
+
+main{
+    width: 940px;
+    margin: 48px auto 80px auto;
+}
+
+#main1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*------------가맹문의----------*/
+
+#Franchise {
+    width: 225px;
+    height: 272px;
+
+    background-color: #faf9f7;
+    position: relative;
+}
+
+#Franchise>div:first-child {
+    width: 143px;
+    height: 18px;
+
+    background-image: url(https://www.hollys.co.kr/websrc/images/main/menu_tit.gif);
+    background-repeat: no-repeat;
+    margin-left: 20px;
+
+    position: absolute;
+    bottom: 223px;
+}
+
+#Franchise > div:last-child{
+    width: 225px;
+    height: 223px;
+
+    background-image: url(https://www.hollys.co.kr/websrc/images/main/menu_img01.gif);
+
+    position: absolute;
+    bottom: 0px;
+}
+
+/*---------할리스몰----------*/
+
+#mall > div{
+    display: flex;
+}
+
+#mall > p:nth-child(2){
+    margin: 16px 0px 32px 0px;
+}
+
+
+.drink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 16px;
+}
+
+
+#mall > div > a:not(:last-child){
+    border-right: 1px solid #dddddd;
+}
+
+.drinkimage > img{
+    width: 86px;
+    height: 80px;
+}
+
+.mall-text{
+    color: #5f5f5e;
+    font-size: 12px;
+}
+
+/*-------------store-----------*/
+
+#store1 {
+    width: 240px;
+    height: 272px;
+
+    background-color: #faf9f7;
+    position: relative;
+}
+
+#store1 > div{
+    position: absolute;
+    bottom: 0px;
+}
+
+#store1 > div > p:first-child{
+    margin-left: 20px;
+}
+
+/*-----------메인2----------*/
+
+#main2{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+#main2 > div:first-child{
+    width: 465px;
+    height: 154px;
+
+    background-image: url(https://www.hollys.co.kr/websrc/images/main/img_banner_membership_210223.jpg);
+}
+
+
+#main2 > div:last-child{
+    width: 465px;
+    height: 154px;
+
+    background-image: url(https://www.hollys.co.kr/websrc/images/main/img_2102223.jpg);
+}
+
+/*-------------메인 3--------------*/
+
+#main3{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 32px 0px 64px 0px; 
+}
+
+.event-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-text > p{
+    color: #6f6f6f;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.solution-text{
+    color: #6f6f6f;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-wrap: nowrap;
+
+}
+
+#button1{
+    width: 15px;
+    height: 15px;
+
+    border-radius: 9999px;
+    border: 1px solid #444444;
+
+    text-align: center;
+    line-height: 12px;
+
+    font-size: 10px;
+
+}
+
+#solubutton{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#qa{
+    display: flex;
+}
+
+#qa > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 16px;
+}
+
+#qa > div:not(:last-child){
+    border-right: 1px solid #dddddd;
+}
+
+#qa > div > img{
+    width: 38px;
+    height: 38px;
+
+    margin-bottom: 16px;
+}
+
+/*------------메인4-------------*/
+
+#main4{
+    display: flex;
+    align-items: center;
+
+    padding: 40px 0px;
+    box-sizing: border-box;
+
+    border-top: 2px solid #b5121b;
+}
+
+#main4 > div{
+    display: flex;
+    gap: 4px;
+}
+
+
+/*------------푸터--------------*/
+
+footer {
+    width: 100%;
+    min-width: 940px;
+    height: 115px;
+    padding: 32px 0px 0px 0px;
+    background-color: #ba000c;
+}
+
+footer > div{
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer > div > ul{
+    display: flex;
+}
+
+footer > div > ul > li{
+    color:white;
+    font-size: 12px;
+}
+
+footer > div > ul > li:first-child{
+    padding: 0 6px 0 0;
+}
+
+footer > div > ul > li:not(:first-child){
+    padding: 0 6px;
+}
+
+footer > div > ul > li:not(:last-child){
+    border-right: 1px solid #ffffff;
+}
+
+footer>div > div >p {
+    margin-top: 23px;
+
+    color: #de898e;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+
+
+/* 랜딩 글씨 줄 없애기*/
+a{
+    text-decoration: none;
+    color: black;
+}
